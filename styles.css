@@ -5,7 +5,7 @@
 
 header{
     display: flex;
-    background-color: hotpink;
+    background-color: lightpink;
     padding: 10px 70px;
     justify-content: space-between;
 }
@@ -16,4 +16,26 @@ ul {
 }
 li{
     list-style: none;
+}
+
+#home {
+    padding: 20px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.direito img{
+    width: 15vw;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 40px;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.3);
+}
+
+#home{
+    background-color: lightpink; 
+}
+
+#sobre, #projetos, .portfolio {
+    padding: 20px 70px;
 }
