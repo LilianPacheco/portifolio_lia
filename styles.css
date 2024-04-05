@@ -39,3 +39,18 @@ li{
 #sobre, #projetos, .portfolio {
     padding: 20px 70px;
 }
+
+.meio{
+    text-align: center;
+    background-color: lightpink;
+    padding: 70px;
+    border-radius: 40px;
+}
+
+.projeto{
+    background-color: lightpink;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
